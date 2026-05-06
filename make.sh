@@ -229,10 +229,10 @@ partitions=("mi_ext" "product" "system" "system_dlkm" "system_ext" "vendor" "odm
   --partition vendor_dlkm_a:readonly:"$vendor_dlkm_size":qti_dynamic_partitions_a \
   --image vendor_dlkm_a="$GITHUB_WORKSPACE"/super/vendor_dlkm.img \
   --partition vendor_dlkm_b:readonly:0:qti_dynamic_partitions_b \
-  --device super:14495514624 \
+  --device super:13958643712 \
   --metadata-slots 3 \
-  --group qti_dynamic_partitions_a:14495514624 \
-  --group qti_dynamic_partitions_b:14495514624 \
+  --group qti_dynamic_partitions_a:13958643712 \
+  --group qti_dynamic_partitions_b:13958643712 \
   --virtual-ab -F \
   --output "$GITHUB_WORKSPACE"/super/super.img
   End_Time 打包super
