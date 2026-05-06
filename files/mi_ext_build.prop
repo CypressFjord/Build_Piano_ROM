@@ -41,8 +41,6 @@ ro.vendor.audio.soundtrigger.wakeupword=3
 ro.surface_flinger.game_default_frame_rate_override=120
 #扬声器清理
 ro.vendor.audio.clean_speaker=true
-#高精度定位
-persist.vendor.gnss.hpLocSetUI=1
 #快充加速
 persist.vendor.accelerate.charge=true
 #兼容完美横屏模块(通用版)，该代码由做梦书大佬提供
