@@ -38,7 +38,7 @@ jobs:
           sudo split -b 1536M -d "$GITHUB_WORKSPACE"/zip/${{ env.rom_name }} ${{ env.rom_name }}
           cd "$GITHUB_WORKSPACE"
           touch file.log
-          echo -e "机型代号: Piano\n机型名称: Xiaomi Pad 8 Pro\n\nSOTA版本: ${{ env.incremental_version }}\n系统版本: ${{ env.vendor_os_version }}\n系统System安全补丁日期: ${{ env.port_security_patch }}\n系统Vendor安全补丁日期: ${{ env.vendor_security_patch }}\n系统Vendor基线版本: ${{ env.vendor_base_line}}\n\n系统原ROM下载地址: ${{ github.event.inputs.VENDOR_URL }}" > file.log
+          echo -e "机型代号: piano\n机型名称: Xiaomi Pad 8 Pro\n\nSOTA版本: ${{ env.incremental_version }}\n系统版本: ${{ env.vendor_os_version }}\n系统System安全补丁日期: ${{ env.port_security_patch }}\n系统Vendor安全补丁日期: ${{ env.vendor_security_patch }}\n系统Vendor基线版本: ${{ env.vendor_base_line}}\n\n系统原ROM下载地址: ${{ github.event.inputs.VENDOR_URL }}" > file.log
       - name: 上传到 Github Release
         uses: ncipollo/release-action@main
         with:
