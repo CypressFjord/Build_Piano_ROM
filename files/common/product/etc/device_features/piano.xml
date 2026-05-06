@@ -907,3 +907,13 @@
     <bool name="is_rhythmic_mode_v2_supported">true</bool>
 </features>
 <!-- END Adapt_MIUIAdaptFrame-->
+<!-- Xiaomi Pad 8 Pro Patch -->
+    <!-- default rhythmic eyecare mode -->
+    <integer name="default_eyecare_mode">2</integer>
+    <!-- Whether UI show Xiaomi Qingshan Eyecare -->
+    <bool name="support_qingshan_eyecare">true</bool>
+    <!-- Whether rhythmic mode 2.0 supported by phone -->
+    <bool name="is_rhythmic_mode_v2_supported">true</bool>
+<!-- Xiaomi Pad 8 Pro Patch END -->
+</features>
+<!-- END Patch-->
