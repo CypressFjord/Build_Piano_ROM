@@ -183,6 +183,7 @@ rm -rf "$GITHUB_WORKSPACE"/images/product/data-app/SmartHome
 rm -rf "$GITHUB_WORKSPACE"/images/product/data-app/WpsLauncher
 rm -rf "$GITHUB_WORKSPACE"/images/product/data-app/XMRemoteController/
 rm -rf "$GITHUB_WORKSPACE"/images/product/data-app/iFlytekIME
+rm -rf "$GITHUB_WORKSPACE"/images/product/priv-app/kidspace
 rm -rf "$GITHUB_WORKSPACE"/images/product/priv-app/MIUIBrowserPad
 rm -rf "$GITHUB_WORKSPACE"/images/product/priv-app/MiniGameService
 echo "精简apk完成"
