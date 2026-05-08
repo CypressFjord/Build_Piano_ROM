@@ -98,7 +98,7 @@ rm -rf "$GITHUB_WORKSPACE"/${vendor_zip_name}
 End_Time 解压ROM
 
 echo -e "${Red}- 开始解ROM Payload"
-$payload_extract -s -o "$GITHUB_WORKSPACE"/firmware/images -i "$GITHUB_WORKSPACE"/vendor_zip/payload.bin -X abl,aop,aop_config,bluetooth,boot,countrycode,cpucp,cpucp_dtb,devcfg,dsp,dtbo,featenabler,hyp,idmanager,imagefv,keymaster,modem,multiimgqti,pdp,pdp_cdb,pvmfw,qupfw,recovery,shrm,soccp_dcd,soccp_debug,spuservice,tz,uefi,uefisecapp,vbmeta_system,vendor_boot,vm-bootsys,xbl,xbl_config,xbl_ramdump -T0
+$payload_extract -s -o "$GITHUB_WORKSPACE"/firmware/images -i "$GITHUB_WORKSPACE"/vendor_zip/payload.bin -X abl,aop,aop_config,bluetooth,boot,countrycode,cpucp,cpucp_dtb,devcfg,dsp,dtbo,featenabler,hyp,idmanager,imagefv,keymaster,modem,multiimgqti,pdp,pdp_cdb,pvmfw,qupfw,shrm,soccp_dcd,soccp_debug,spuservice,tz,uefi,uefisecapp,vbmeta_system,vendor_boot,vm-bootsys,xbl,xbl_config,xbl_ramdump -T0
 $payload_extract -s -o "$GITHUB_WORKSPACE"/Extra_dir -i "$GITHUB_WORKSPACE"/vendor_zip/payload.bin -X system,system_ext,product,mi_ext,system_dlkm,vendor,odm,vendor_dlkm -T0
 sudo rm -rf "$GITHUB_WORKSPACE"/vendor_zip/payload.bin
 
